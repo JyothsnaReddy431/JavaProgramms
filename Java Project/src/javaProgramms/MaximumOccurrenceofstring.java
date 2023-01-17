@@ -11,7 +11,7 @@ public class MaximumOccurrenceofstring {
      public static void getoccurenc(String str, char val) {
 		int count=0;
 		for(char ch :str.toCharArray()) {
-			if(ch=='g') {
+			if(ch==val) {
 				count++;
 			}
 		}
